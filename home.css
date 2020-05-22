@@ -1,0 +1,310 @@
+*{
+    box-sizing: border-box;
+}   
+
+/*Header Properties for both page*/
+header{
+    border:  4px solid maroon;
+    text-align: center;
+    background-color: darkgoldenrod;
+    font-family:'Harrington','AR ESSENCE','AR CENA', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size:13px;
+    font-weight:bold;
+}
+
+/*Body Properties for both page*/
+body{
+    background-color: rgb(255, 243, 209);
+    overflow: hidden;
+    font-family:'Harrington','AR ESSENCE','AR CENA', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    
+}
+
+/*Content block Properties for both page*/
+.content {
+    display:flex;
+    width:100%;
+    margin-left:-40px;
+    margin-top: 16px;
+}
+
+h1#tagline_menu {
+      font-weight: bold;
+}
+
+/*Naviation block Properties*/
+.navigation{
+        padding:5px;
+        float:left;
+        width:230px;
+        font-size:15px;
+}
+
+/*list Properties for navigation list*/
+ul#nav1{
+    width :16em;
+    list-style-type:none;
+}
+
+ul#nav1 li{
+    list-style: none;
+    background-color:darkgoldenrod;
+    text-align: left;
+    margin : 5px;
+}
+
+li a{
+    display:inline-block;
+    color:white;
+    padding :5px;
+    text-decoration: none;  
+}
+
+li a:hover{
+    color:   rgb(142, 155, 255);
+    text-decoration: underline;
+}
+
+/*Properties for the restaurant menu*/
+ .menu {
+    float:left;
+    width:40%;
+    margin-left:240px; 
+    margin-top: -5px;
+    font-size:15px;
+}
+
+/*list Properties for restaurant menu*/
+#menu{
+    margin-left: 70px;
+    margin-bottom: 10px;
+    font-family:'Script MT Bold''Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+/*Properties for address*/
+address{
+    font-family:'Script MT Bold''Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+/*Image Properties for both pages*/
+.image {
+    padding:40px;
+    float: left;
+    width:30%;
+    margin-left:130px; 
+}
+
+.image_menu {
+    padding:40px;
+    float: left;
+    width:30%;
+    margin-left:130px;  
+    border-image: url("bor.png") 30 repeat;
+}
+
+#borimg{
+    width: 100%;
+    border-style: solid;
+    border : 4px solid darkgoldenrod;
+}
+
+#imgborder{
+    margin-top: -5px;
+ 
+}
+
+/*Footer Properties*/
+.footer{
+    position: absolute;
+    text-align: center;
+    background-color: darkgoldenrod;
+    width: 100%;
+    bottom: 0%;
+    font-size:13px;
+    margin-left:-8px;
+}
+
+/*Contact Properties for About page*/
+.contact {
+    padding:1px;
+    float:left;
+    width:40%;
+    margin-left:240px; 
+    margin-top: -5px; 
+    font-size:13px;
+}
+
+
+caption{
+    background-image : url(back3.jpg);
+    padding : 5px;
+}
+
+#tagline_menu{
+    margin-left: 190px;
+}
+
+ #p1{
+    text-align: center;
+}
+
+ #p2{
+    text-align: center;
+}
+
+ #menutable{
+    background :rgb(243, 213, 132);
+    font-size : 1em;
+    width : 60%;
+    text-align: center;
+    border-collapse: collapse;
+    overflow : hidden;
+    margin-left: -10px;
+}
+
+ #menutable2{
+    background :rgb(243, 213, 132);
+    font-size : 1em;
+    width : 60%;
+    text-align: center;
+    border-collapse: collapse;
+    overflow : hidden;
+    margin-left: 239px;
+    margin-top: -138px;
+    margin-right: -2px;
+}
+
+ #cap1{
+text-align: right;
+}
+
+ #cap2{
+    text-align: left;
+}
+
+ #morning{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+ #discount{
+    text-align: center;
+    margin-left: 18px;
+    margin-top: 0px;
+    margin-bottom: 8px;
+    padding: 4px;
+    background :rgb(218, 171, 55);
+    font-weight: bold;
+    box-shadow: 3px 3px rgba(102, 21, 21, 0.418);
+    
+}
+ #para,#numbr,#guess{
+    text-align: center;
+    margin-top: 0px;
+ }
+ #inputnum{
+     margin-left: 26px;
+     border: 1px solid black;
+ }
+ #play{
+    margin-left: 95px;
+    background :rgb(218, 171, 55);
+    font-weight: bold;
+    box-shadow: 3px 3px rgba(102, 21, 21, 0.418);
+ }
+
+.modal {
+    display: none;  
+    position: fixed;  
+    z-index: 1;  
+    padding-top: 100px;  
+    left: 0;
+    top: 0;
+    width: 100%;  
+    height: 100%;  
+    overflow: auto;  
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0, 0, 0, 0.4); 
+  }
+
+
+  .modal-content {
+    background-color: rgba(255, 243, 209, 0.884);
+    margin: auto;
+    padding: 10px;
+    border: 2px solid #888;
+    width: 80%;
+    
+  }
+ 
+
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+ 
+  #myTable{
+    background :  rgb(243, 213, 132);
+    border: 2px solid black;
+    font-size : 1em;
+    width : 50%;
+    padding: 4px;
+    margin: 5px;
+    text-align: center;
+    border-collapse: collapse;
+    overflow : hidden; 
+  }
+#open{
+     margin-left: 1px;
+     padding-left: 18px;
+     padding-right: 140px;
+     margin-top: -2px;
+     margin-left: -10px;
+     background :rgb(243, 213, 132);   
+    }
+#close{
+    margin-left: 250px;
+    padding-left: 12px;
+    padding-right: 120px;
+    margin-top: -27px;
+    margin-left: 200px;
+    background :rgb(243, 213, 132);
+    width: 69.2%;      
+}
+
+#closebtn{
+    margin-left: 40px;
+    background :rgb(218, 171, 55);
+    font-weight: bold;
+    box-shadow: 3px 3px rgba(102, 21, 21, 0.418);
+    font-family:  'Trebuchet MS', 'sans-serif';
+    
+}
+#openbtn{
+    background :rgb(218, 171, 55);
+    font-weight: bold;
+    box-shadow: 3px 3px rgba(102, 21, 21, 0.418);
+    font-family:   'Trebuchet MS', 'sans-serif';
+    
+}
+.btn{
+    background :rgb(218, 171, 55);
+    font-weight: bold;
+    box-shadow: 3px 3px rgba(102, 21, 21, 0.418);
+    font-family:'Harrington','AR ESSENCE','AR CENA', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
+

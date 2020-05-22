@@ -1,0 +1,152 @@
+*{
+    box-sizing: border-box;
+}
+
+/*Header Properties for both page*/
+header{
+    border:  3px solid maroon;
+    text-align: center;
+    background-color: darkgoldenrod;
+    font-family:'Harrington','AR ESSENCE','AR CENA', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size:13px;
+    font-weight:bold;
+}
+
+/*Body Properties for both page*/
+body{
+    background-color: rgb(255, 243, 209);
+    overflow: hidden;
+    font-size: 11px;   
+}
+
+/*Flex Board*/
+.content{
+    display: flex;
+}
+
+.content > div{
+    width:14%;
+    margin-left:-40px;
+    margin-top: 11px;
+}
+
+/*Naviation block Properties*/
+.navigation{
+        padding:2px;
+        float:left;
+        width:230px;
+        font-family:'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+        font-size:15px;
+}
+
+/*list Properties for navigation list*/
+ul#nav1{
+    width :16em;
+    list-style-type:none;
+}
+
+ul#nav1 li{
+    list-style: none;
+    background-color:darkgoldenrod;
+    text-align: left;
+    margin : 5px;
+}
+
+li a{
+    display:inline-block;
+    color:white;
+    padding :5px;
+    text-decoration: none;  
+}
+
+li a:hover{
+    color:   rgb(142, 155, 255);
+    text-decoration: underline;
+}
+
+/*list Properties for restaurant menu*/
+#menu{
+    margin-left: 70px;
+    margin-bottom: 10px;
+    font-family:'Script MT Bold''Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+/* Input Form */
+form  { display: table;   }
+label { display: table-cell; padding: 7px; }
+input { display: table-cell; 
+        padding: -2px;
+      }
+
+label{
+    display: inline-block;
+    width: 400px;
+    text-align: right;
+}
+
+#file,#filelab{
+    display: inline;
+}
+
+#filelab{
+    margin-left: 354px;
+}
+
+#textarea{
+    vertical-align: top;
+}
+
+#text,#text2{
+    margin-left: 400px;
+}
+
+#radlab1{
+    display: inline;
+}
+
+#radlab2{
+    display: inline;
+    margin-left: 1px;
+}
+
+#genfemale{
+    margin-left: 405px;
+}
+
+#check1,#check2{
+    margin-left: 335px;
+}
+
+#checklab1{
+    margin-left: -154px;
+}
+
+#checklab2,#l2{
+    display: inline;
+    margin-left: -2px;
+}
+
+#l2{
+    margin-left: 356px;
+}
+#submit{
+    margin-left: 500px;
+    background-color: darkgoldenrod;
+    padding: 7px;
+    border-radius: 6px;
+    box-shadow: 1px 0px
+}
+
+/*Footer Properties*/
+.footer{
+    position: absolute;
+    text-align: center;
+    background-color: darkgoldenrod;
+    width: 100%;
+    bottom: 0%;
+    font-size:11px;
+    margin-left:-8px;
+}
+
